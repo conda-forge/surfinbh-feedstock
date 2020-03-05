@@ -1,17 +1,17 @@
 {% set name = "surfinBH" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 2b2228458f6cb967ce755cada31e3de39194b7a1694b9d1bae5ff43681bc8d26
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4c269611b9f01852e53ac9256036bdb0c5c2fee28f7aaddff1a3c24ce62643ab
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -34,18 +34,18 @@ test:
     - surfinBH._fit_evaluators
 
 about:
-  home: "https://github.com/vijayvarma392/surfinBH"
+  home: https://github.com/vijayvarma392/surfinBH
   license: MIT
   license_family: MIT
-  license_file: "LICENSE"
-  summary: "Surrogate Final BH properties."
+  license_file: LICENSE
+  summary: Surrogate Final BH properties.
   description: |
     surfinBH provides surrogate final Black Hole properties for mergers of binary black holes (BBH).
     These fits are described in the following papers:
       [1] Vijay Varma, D. Gerosa, L. C. Stein, F. Hébert and H. Zhang, arxiv:1809.09125.
       [2] Vijay Varma, S. E. Field, M. A. Scheel, J. Blackman, D. Gerosa, L. C. Stein, L. E. Kidder, H. P. Pfeiffer, arxiv:1905.09300.
     If you find this package useful in your work, please cite reference [1] and, if available, the relevant paper describing the particular model. Please also cite this package, see the DOI badge at the top of this page for BibTeX keys.
-  dev_url: "https://github.com/vijayvarma392/surfinBH"
+  dev_url: https://github.com/vijayvarma392/surfinBH
 
 extra:
   recipe-maintainers:
