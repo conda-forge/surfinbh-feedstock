@@ -21,7 +21,7 @@ requirements:
   run:
     - gwsurrogate
     - h5py
-    - lalsuite
+    - lalsuite >=6.70
     - numpy
     - python
     - scikit-learn >=0.19.1
