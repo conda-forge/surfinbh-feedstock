@@ -5,9 +5,11 @@ Home: https://github.com/vijayvarma392/surfinBH
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/surfinbh-feedstock/blob/master/LICENSE.txt)
 
 Summary: Surrogate Final BH properties.
+
+Development: https://github.com/vijayvarma392/surfinBH
 
 surfinBH provides surrogate final Black Hole properties for mergers of binary black holes (BBH).
 These fits are described in the following papers:
