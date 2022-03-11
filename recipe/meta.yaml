@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - gwsurrogate
     - h5py
     - lalsuite >=6.70
     - numpy
-    - python
+    - python >=3.6
     - scikit-learn >=0.19.1
     - scipy
 
