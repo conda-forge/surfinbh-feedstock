@@ -1,11 +1,11 @@
-About surfinbh
-==============
+About surfinbh-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/surfinbh-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/vijayvarma392/surfinBH
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/surfinbh-feedstock/blob/main/LICENSE.txt)
 
 Summary: Surrogate Final BH properties.
 
