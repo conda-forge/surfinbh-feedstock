@@ -1,5 +1,5 @@
 {% set name = "surfinBH" %}
-{% set version = "1.2.3" %}
+{% set version = "1.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bd68d7c5801c1203df5cada53703dda60ef1d0944dfab28bc2f80fb6f668fe09
+  sha256: c1dff91a1d59e04aef5de1d8872cd0c25ae4fbc1a8f36b1b1bc26c8ad79a1028
 
 build:
   number: 0
