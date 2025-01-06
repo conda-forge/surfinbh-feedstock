@@ -6,28 +6,30 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: c1dff91a1d59e04aef5de1d8872cd0c25ae4fbc1a8f36b1b1bc26c8ad79a1028
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - gwsurrogate
     - h5py
     - lalsuite >=6.70
     - numpy
-    - python >=3.6
+    - python >={{ python_min }}
     - scikit-learn >=0.19.1
     - scipy
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - surfinBH
     - surfinBH._eval_pysur
