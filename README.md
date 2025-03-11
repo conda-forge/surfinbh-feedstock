@@ -13,8 +13,10 @@ Development: https://github.com/vijayvarma392/surfinBH
 
 surfinBH provides surrogate final Black Hole properties for mergers of binary black holes (BBH).
 These fits are described in the following papers:
-  [1] Vijay Varma, D. Gerosa, L. C. Stein, F. Hébert and H. Zhang, arxiv:1809.09125.
-  [2] Vijay Varma, S. E. Field, M. A. Scheel, J. Blackman, D. Gerosa, L. C. Stein, L. E. Kidder, H. P. Pfeiffer, arxiv:1905.09300.
+  [1] V. Varma, D. Gerosa, L. C. Stein, F. Hébert and H. Zhang, arxiv:1809.09125.
+  [2] V. Varma, S. E. Field, M. A. Scheel, J. Blackman, D. Gerosa, L. C. Stein, L. E. Kidder, H. P. Pfeiffer, arxiv:1905.09300.
+  [3] M. Boschini, D. Gerosa, V. Varma, et al., arXiv:2307.03435
+  [4] L. Magaña Zertuche, L. C. Stein, et al., arXiv:2408.05300
 If you find this package useful in your work, please cite reference [1] and, if available, the relevant paper describing the particular model. Please also cite this package, see the DOI badge at the top of this page for BibTeX keys.
 
 
